@@ -3,6 +3,10 @@ import "../style/SongLyric.css";
 import { boldQueries } from "./utils.js";
 import React from "react";
 
+import { isMobile } from "./utils";
+
+const mobile = isMobile();
+
 type Props = {
 	album: string,
 	albumYear?: number,
@@ -37,7 +41,7 @@ export default function SongLyric({ album, albumYear, albumImg, song, prev, lyri
 				</p>
 			</div>
 
-			<hr />
+			<hr className={mobile ? "hr-mobile" : "hr"}/>
 		</div>
 	);
 }

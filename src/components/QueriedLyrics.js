@@ -88,8 +88,8 @@ export default function QueriedLyrics({
       </div>
 
       <div className={mobile ? "totalResults-mobile" : "totalResults"}>
-        Found {totalUses} usage{totalUses === 1 ? "" : "s"} in {totalSongs} song
-        {totalSongs === 1 ? "" : "s"}
+        Found <span className="highlight">{totalUses} usage{totalUses === 1 ? "" : "s"}</span> in <span className="highlight">{totalSongs} song
+        {totalSongs === 1 ? "" : "s"}</span>
       </div>
 
     </div>
