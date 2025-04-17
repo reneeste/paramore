@@ -1,16 +1,51 @@
 .SongLyric {
-  font-size: 16px;
-  font-weight: 400;
+	margin-bottom: 24px;
+	font-size: 16px;
+	line-height: 1.4;
 }
 
-p {
-  font-weight: 300;
+.lyricBlock {
+	margin-bottom: 6px;
+}
+
+.prevLyric,
+.nextLyric {
+	font-size: 14px;
+  color: #666;
 }
 
 .lyric {
-  font-size: 18px;
+	font-size: 17px;
 }
 
-.query {
-  background-color: rgb(220, 220, 250);
+.lyric .query {
+	background: #f0d9cf;
+	padding: 0 1px;
+	border-radius: 2px;
+}
+
+
+.songMeta {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 13px;
+	color: #666;
+	margin-top: 4px;
+  justify-content: center;
+}
+
+.albumThumb {
+	width: 28px;
+	height: 28px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.songMeta i {
+	font-style: italic;
+}
+
+.songMeta p {
+	margin: 0;
 }

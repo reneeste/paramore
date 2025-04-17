@@ -1,14 +1,16 @@
+// @flow
 import React from "react";
-import ReactDOM from "react-dom";
-import "./style/index.css";
-import App from "./components/App";
-import {BrowserRouter as Router} from "react-router-dom";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.render(
-  <Router basename='/taylor-swift' >
-    <React.StrictMode>
+import App from "./components/App";
+
+const container = document.getElementById("root");
+const root = createRoot(container); 
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
       <App />
-    </React.StrictMode>
-  </Router>,
-  document.getElementById("root")
+    </BrowserRouter>
+  </React.StrictMode>
 );

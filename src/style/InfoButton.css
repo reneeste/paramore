@@ -8,13 +8,13 @@
   padding: 5px;
   font-size: 25px;
   line-height: 35px;
-  background-color: lavender;
+  background-color: rgb(244, 240, 238);
   font-weight: 300;
   transition: 0.5s;
 }
 
 .InfoButton:hover {
-  background-color: lightgray;
+  background-color: rgb(240, 217, 207);
   cursor: pointer;
   transition: 0.5s;
 }

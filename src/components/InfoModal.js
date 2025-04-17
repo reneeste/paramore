@@ -1,7 +1,7 @@
 // @flow
 import "../style/InfoModal.css";
 import { isMobile } from "./utils";
-import { ModalText } from "./constants";
+import { ModalText, UpdateText } from "./constants";
 import React from "react";
 
 const mobile = isMobile();
@@ -29,17 +29,16 @@ export default function InfoModal({
     >
       <div className={mobile ? "ModalBox ModalBox-mobile" : "ModalBox"}>
         <p dangerouslySetInnerHTML={{ __html: ModalText }} />
-        {/** CREDITS: Please do not edit this. Feel free to add your own credits to ModalText. */}
         <p style={{ fontSize: "14px" }}>
-          Made by&nbsp;<a href="http://shaynak.github.io">Shayna Kothari</a>
-          &nbsp;using&nbsp;
-          <a href="http://reactjs.org">React</a>. Lyrics scraped from&nbsp;
-          <a href="http://genius.com">Genius</a>&nbsp; using&nbsp;
-          <a href="https://github.com/johnwmillr/LyricsGenius">LyricsGenius</a>.
-          If you have comments or suggestions, contact me by{" "}
-          <a href="mailto:shayna.kothari@berkeley.edu">email</a>!
+          Originally made by&nbsp;<a href="https://shaynak.github.io/">Shayna Kothari</a>&nbsp;for&nbsp;<a href="https://shaynak.github.io/taylor-swift/">Taylor Swift</a>.
+          <br />
+          Remade by <a href="https://github.com/reneeste/">Renee</a>. Re-coded and optimized lyric scraper, added multiple artist functionality, changed some design.
+          <br />
         </p>
-        <p style={{ fontSize: "12px" }}>p.s. if you have thoughts on what I should do about the better than revenge lyric change... contact me</p>
+        <p style={{ fontSize: "14px" }}>Lyrics scraped from&nbsp;<a href="http://genius.com">Genius</a> using Playwright. </p>
+        <p dangerouslySetInnerHTML={{ __html: UpdateText }} style={{ fontSize: "14px", color: "#aaa" }}/>
+          
+     
       </div>
     </div>
   );

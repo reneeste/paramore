@@ -1,7 +1,7 @@
 // @flow
 import pluralize from "pluralize";
 
-const PLURAL_EXCEPTIONS = ["hi", "die", "dice", "his", "a", "as"];
+const PLURAL_EXCEPTIONS = ["hi", "die", "dice", "his", "a", "as", "we", "i", "us"];
 
 type QueryMatch = {
   start: number,

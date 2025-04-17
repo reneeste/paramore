@@ -1,0 +1,91 @@
+.FilterStrip {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 70%;
+	margin-left: 15%;
+  margin-right: 15%;
+}
+
+.FilterStrip-mobile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 95%;
+}
+
+.pillWrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 6px;
+}
+
+.filterStripContainer {
+	display: flex;
+	justify-content: center;
+	margin: 1rem;
+}
+
+.filterStripContainer.hidden {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.catWrap {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin-top: 0.25rem;
+}
+
+.catPill {
+	padding: 0.2rem 0.6rem;
+	border-radius: 12px;
+	font-size: 0.9rem;
+	cursor: pointer;
+	user-select: none;
+	border: 1px solid transparent;
+}
+
+.catPill--on {
+	background-color: rgb(184, 157, 145);
+	color: white;
+}
+
+.catPill--off {
+	color: #747474;
+	border: 1px solid #e3e3e3;
+}
+
+.catPill-mobile {
+	padding: 0.2rem 0.6rem;
+	font-size: 0.8rem;
+	border-radius: 12px;
+	user-select: none;
+}
+
+.btnRow {
+	display: flex;
+	justify-content: flex-start;
+	gap: 0.5rem;
+	margin-top: 0.75rem;
+}
+
+.ctaBtn {
+	padding: 0.3rem 0.8rem;
+	font-size: 0.8rem;
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+
+.ctaBtn:hover {
+	background-color: #f0f0f0;
+}

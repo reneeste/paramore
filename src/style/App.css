@@ -1,50 +1,60 @@
 .App {
-  text-align: center;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.contentWrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .title {
-  margin-top: 3%;
-  text-align: center;
-  width: 100%;
+	margin-top: 20%;
+	text-align: center;
+	width: 100%;
 }
 
 .top-title {
-  margin-top: 2%;
+	margin-top: 2%;
 }
 
 .title-text-mobile {
-  font-size: 40px;
-  line-height: 60px;
+	font-size: 40px;
+	line-height: 60px;
 }
 
 .title-text {
-  font-size: 72px;
-  line-height: 122px;
+	font-size: 72px;
+	line-height: 122px;
 }
 
 .top-text-mobile {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 .top-text {
-  font-size: 32px;
-  transition: background-color 0.5s;
+	font-size: 32px;
+	transition: background-color 0.5s;
 }
 
 .top-text:hover {
-  background-color: white;
-  cursor: pointer;
-  transition: background-color 0.5s;
+	background-color: white;
+	cursor: pointer;
+	transition: background-color 0.5s;
 }
 
 .top-text-mobile:hover {
-  background-color: white;
-  cursor: pointer;
-  transition: background-color 0.5s;
+	background-color: white;
+	cursor: pointer;
+	transition: background-color 0.5s;
 }
 
 .tips {
-  font-style: italic;
-  font-size: 13px;
-  margin-top: 4px;
+	font-style: italic;
+	font-size: 0.9rem;
+	margin-top: 1rem;
+	padding: 0 1rem;
 }
