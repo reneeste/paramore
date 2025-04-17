@@ -24,6 +24,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(240, 217, 207);
+  background: rgb(187, 187, 187);
   transition: 1s;
 }

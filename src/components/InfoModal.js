@@ -32,7 +32,7 @@ export default function InfoModal({
         <p style={{ fontSize: "14px" }}>
           Originally made by&nbsp;<a href="https://shaynak.github.io/">Shayna Kothari</a>&nbsp;for&nbsp;<a href="https://shaynak.github.io/taylor-swift/">Taylor Swift</a>.
           <br />
-          Remade by <a href="https://github.com/reneeste/">Renee</a>. Re-coded and optimized lyric scraper, added multiple artist functionality, changed some design.
+          Re-made by <a href="https://github.com/reneeste/">Renee</a>: re-coded and optimized lyric scraper, added multiple artist functionality, changed some design.
           <br />
         </p>
         <p style={{ fontSize: "14px" }}>Lyrics scraped from&nbsp;<a href="http://genius.com">Genius</a> using Playwright. </p>
