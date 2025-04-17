@@ -36,8 +36,8 @@ export default function SongLyric({ album, albumYear, albumImg, song, prev, lyri
 					/>
 				)}
 				<p>
-					<strong>{song}</strong> &mdash; <i>{album}</i>
-					{albumYear && ` (${albumYear})`}
+					<strong>{song}</strong> &mdash; <i>{album}{albumYear && ` (${albumYear})`}</i>
+					
 				</p>
 			</div>
 
