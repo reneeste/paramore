@@ -39,6 +39,8 @@
     ]
   },
   "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
     "gh-pages": "^3.2.3",
     "prettier": "2.2.1"
   },

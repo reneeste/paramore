@@ -6,6 +6,7 @@ ARTIST_ID = 298 # Hayley's artist ID on Genius
 ALBUMS = {
     "/albums/595868": "Petals for Armor",
     "/albums/730452": "FLOWERS for VASES / descansos",
+    "/albums/1446181": "EGO",
 }
 
 # Songs that don't have an album

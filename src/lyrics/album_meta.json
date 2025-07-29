@@ -12,5 +12,6 @@
 	"This Is Why": { "year": 2023, "img": "tiw.webp" },
 	"Re: This Is Why": { "year": 2024, "img": "re_tiw.webp" },
 	"Petals for Armor": { "year": 2020, "img": "pfa.webp" },
-	"FLOWERS for VASES / descansos": { "year": 2021, "img": "ffv.webp" }
+	"FLOWERS for VASES / descansos": { "year": 2021, "img": "ffv.webp" },
+	"EGO": {"year": 2025, "img": "ego.webp"}
 }
