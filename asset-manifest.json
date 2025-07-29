@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/paramore/static/css/main.c871e8cd.css",
-    "main.js": "/paramore/static/js/main.66106776.js",
+    "main.js": "/paramore/static/js/main.ab42f0c1.js",
     "index.html": "/paramore/index.html",
     "main.c871e8cd.css.map": "/paramore/static/css/main.c871e8cd.css.map",
-    "main.66106776.js.map": "/paramore/static/js/main.66106776.js.map"
+    "main.ab42f0c1.js.map": "/paramore/static/js/main.ab42f0c1.js.map"
   },
   "entrypoints": [
     "static/css/main.c871e8cd.css",
-    "static/js/main.66106776.js"
+    "static/js/main.ab42f0c1.js"
   ]
 }
